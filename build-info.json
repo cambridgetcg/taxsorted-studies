@@ -6,7 +6,7 @@
   "sources": [
     {
       "path": "source/showcase/index.html",
-      "sha256": "e980d49b83674e9f962f2601f53a31d7c497c343443e24539f6c0b9deb6232a1"
+      "sha256": "0b9f7def6488d35d27d9e69e44921835fc3c432a694d7be493e43aedcc098540"
     },
     {
       "path": "source/showcase/build.mjs",
