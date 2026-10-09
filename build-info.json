@@ -1,0 +1,81 @@
+{
+  "schema": "taxsorted.study-release/1",
+  "sourceReview": "not-admitted-for-advice",
+  "includesPrivateSiteExport": false,
+  "calculation": "historical-illustration-only",
+  "sources": [
+    {
+      "path": "source/showcase/index.html",
+      "sha256": "e980d49b83674e9f962f2601f53a31d7c497c343443e24539f6c0b9deb6232a1"
+    },
+    {
+      "path": "source/showcase/build.mjs",
+      "sha256": "ed32f669549105a3b33fa74d40732103a8445a35fd0aede6f9c582a7319a5629"
+    },
+    {
+      "path": "source/showcase/publication.mjs",
+      "sha256": "91c7161438264cf1fa35a6110667e12969b8dedf29667163dfd786480fcab5ea"
+    },
+    {
+      "path": "source/showcase/engine-entry.ts",
+      "sha256": "841ac4cf8abf55b0737a532eecaaa6345d253f4b831ccd716de6f70ad8aaea03"
+    },
+    {
+      "path": "source/showcase/src/app.tsx",
+      "sha256": "3eb0a515f11d95ac44a2f0dd6fd76d6fc35e6e4034e8042762589269eea4b245"
+    },
+    {
+      "path": "source/showcase/src/main.tsx",
+      "sha256": "6ca0b2acc7323fb7ebda9ca3e02e8d9ad8226d6b2f8461be22bc63fcb9a9d435"
+    },
+    {
+      "path": "source/showcase/src/motifs.ts",
+      "sha256": "97e381babec9afc22267c5b6a726d91ff6142d8bf537395e26c43362576941e3"
+    },
+    {
+      "path": "source/showcase/src/styles.css",
+      "sha256": "c3e79ca6032158697f77345d84975139a9deabcb9cd9a26304fbc02c9447be6b"
+    },
+    {
+      "path": "source/engine/jurisdictions/uk/vat/historical-comparison.ts",
+      "sha256": "0bce2aad69aa4eb1770dd0d79dfa1e5efb465527f145f2d4b530aeb48a7296a8"
+    },
+    {
+      "path": "source/engine/jurisdictions/uk/vat/optimiser.ts",
+      "sha256": "9a1dff55e33469a70a0b06da0b33d629ae02357f5c53cb04d275deb613519c9c"
+    },
+    {
+      "path": "source/engine/jurisdictions/uk/vat/compute.ts",
+      "sha256": "922fddd65f248a1d4173a59dc7b2ea51e726ea0ef84ddf95e4cc1e59530e9434"
+    },
+    {
+      "path": "source/engine/jurisdictions/uk/vat/config.ts",
+      "sha256": "8e67713d654abb368c63d6fa0e626b7f07f81a3e7a7c3dd3b861cee61b68482f"
+    },
+    {
+      "path": "source/engine/jurisdictions/uk/vat/types.ts",
+      "sha256": "2a3539d0aeb0751b0535a31e9c63d235cc1d404a1c41b62b16e2089419633cb9"
+    },
+    {
+      "path": "source/frontend/src/app/plan/vat-comparison-client.tsx",
+      "sha256": "4392a6c45f9570accee6fae453eabde482782eeee00b9dcecdeed7eb4ebb90ba"
+    },
+    {
+      "path": "source/frontend/src/app/globals.css",
+      "sha256": "7e520675af0961c07635c1506822d64d2b485129aca4925855e71595818fb0a7"
+    },
+    {
+      "path": "source/frontend/src/lib/format.ts",
+      "sha256": "b71c745a377eee2113054d721dc1a52d6d6ba3f4d278b8b50c39219b41d20f01"
+    },
+    {
+      "path": "source/frontend/src/lib/parse.ts",
+      "sha256": "0888f67b4062799a29c0a5fa0c7bd02aee0005a7ba1ce14d6e0d10f9f43ffe15"
+    }
+  ],
+  "dependencies": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "date-fns": "4.4.0"
+  }
+}

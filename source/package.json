@@ -1,0 +1,22 @@
+{
+  "name": "taxsorted-studies-source",
+  "private": true,
+  "license": "AGPL-3.0",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "build": "node showcase/build.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "date-fns": "4.4.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.1",
+    "postcss": "8.5.23",
+    "@tailwindcss/postcss": "4.3.0",
+    "tailwindcss": "4.3.0"
+  }
+}
